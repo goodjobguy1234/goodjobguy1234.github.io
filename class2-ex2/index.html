@@ -23,7 +23,12 @@
   }
 
   function sweetTheme() {
+      if(theme.getAttribute('href') == 'css/sweet.css') {
+        theme.setAttribute('href', 'css/light.css')
+      } else {
         theme.setAttribute('href', 'css/sweet.css');
+      }
+       
     }
 </script>
 </head>
@@ -33,7 +38,7 @@
   <h2>Chayapol's Portfolio</h2>
 </header>
 <img src="img/idea.png" class="dark-mode" onclick='toggleTheme()'>
-<img src="img/idea.png" class="sweet-mode" onclick='toggleTheme()'>
+<img src="img/cupcake.png" class="sweet-mode" onclick='sweetTheme()'>
 <section>
   <nav>
     <ul>

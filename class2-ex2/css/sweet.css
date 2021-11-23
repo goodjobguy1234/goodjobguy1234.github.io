@@ -70,7 +70,7 @@
   .dark-mode {
     position: absolute;
     left: 90%;
-    top: 2%;
+    top: 5%;
     width: 40pt;
     height: 40pt;
   }
@@ -78,10 +78,11 @@
   
   .sweet-mode {
     position: absolute;
-    left: 80%;
-    top: 2%;
+    left: 85%;
+    top: 5%;
     width: 40pt;
     height: 40pt;
   }
+
 
   
