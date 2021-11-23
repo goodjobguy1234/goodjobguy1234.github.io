@@ -22,7 +22,6 @@
   nav {
     float: left;
     width: 30%;
-    height: 60vh; /* only for demonstration, should be removed */
     background: rgba(205, 248, 14, 0.856);
     padding: 20px;
   }
