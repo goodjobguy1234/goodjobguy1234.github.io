@@ -1,0 +1,25 @@
+table th {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.form-select {
+    background-color: #b7ded7;
+    border: hidden;
+}
+
+.row {
+    color: #fff2e5;
+}
+
+/* .my-info td{
+    padding:2px;
+} */
+
+.my-info th {
+  font-size: large;
+}
